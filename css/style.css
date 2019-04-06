@@ -1,0 +1,153 @@
+* {
+  /* border: red solid 1px; */
+}
+
+body {
+  width: 900px;
+  margin: 30px 90px 30px 230px;
+}
+
+header {
+  height: 150px;
+}
+
+header img {
+  float: left;
+}
+
+ul {
+  float: right;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+main:first-child img { 
+  float: right;
+}
+
+#stripes {
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 2px, black 3px, black 1px);
+  height: 10px;
+  margin-top: 50px;
+}
+
+#print {
+  float: right;
+  color: grey;
+}
+
+#indent {
+  text-indent: 30px;
+}
+
+#indent p {
+  margin-top: 30px;
+}
+
+#container {
+  margin-top: 30px;
+  background-image: url('../img/list-bg.png');
+  width: 899px;
+  height: 305px;
+  margin-bottom: 30px;
+}
+
+#left {
+  float: left;
+  margin-left: 50px;
+
+}
+
+#right {
+  float: right;
+}
+
+input {
+  display: block;
+}
+
+/* Found solution stack overflow */
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+}
+
+#van {
+  float: left;
+}
+
+#bottommain p {
+  padding: 15px;
+}
+
+button {
+  float: right;
+  height: 50px;
+  width: 160px;
+  padding: 15px 30px;
+  background-color: pink;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+footer img {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+footer p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h2 + p {
+  margin-top: 15px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: sans-serif; 
+}
+
+h4 {
+  font-size: 2em;
+  font-family: 'Yellowtail', cursive;
+}
+
+h4 + p {
+  font-family: sans-serif;
+  color: grey;
+}
+
+h1 + p {
+  color: grey;
+}
+
+/* hr {
+  margin-top: 1.5em;
+  padding: 0;
+  border: none;
+}
+
+hr:after {
+  content: url('/img/small-logo.png');
+  display: inline-block;
+  position: relative;
+  top: -.5em;
+} */
+
+/* We stopped at attempting to put the small logo on the hr */
